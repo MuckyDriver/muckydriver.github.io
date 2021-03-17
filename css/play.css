@@ -1,0 +1,164 @@
+.game {
+    padding: 12.5px;
+    color: white;
+}
+
+.page h1.header1 {
+    margin-block-end: 0; margin-block-start: 0;
+    padding: 25px;
+    position: relative;
+    background: rgb(50,50,50);
+    color: white;
+    font-family: 'Trebuchet MS'; font-weight: 100;
+    cursor: default;
+    text-align: center;
+    font-size: 150%;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    transition: all 0.25s ease-in-out;
+}
+.page h2.header1 {
+    margin-block-end: 0; margin-block-start: 0;
+    padding: 15px;
+    position: relative;
+    background: rgb(70,70,70);
+    color: white;
+    font-family: 'Trebuchet MS'; font-weight: 100;
+    cursor: default;
+    text-align: none;
+}
+
+.page h2.header3 {
+    margin-block-end: 0; margin-block-start: 0;
+    padding: 15px;
+    position: relative;
+    background: rgb(70,70,70);
+    color: white;
+    font-family: 'Trebuchet MS'; font-weight: 100;
+    cursor: default;
+    text-align: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.gridelement {
+    display: inline-grid;
+    grid-template-areas: 
+    'left right';
+}
+
+.gridelement div {
+    margin: 0.5rem;
+    font-family: 'Calibri';
+}
+
+.gridelement div.lighten {
+    background-color: rgb(60,60,60);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#gamethumbnail {
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+#gamethumbnail:hover {
+    box-shadow: 0 0 0.5rem rgb(0,0,0,0.6);
+}
+
+#title {
+    margin-block-end: 0; margin-block-start: 0;
+}
+#creator {
+    margin-block-start: 0;
+    font-size: 100%; color: rgb(160,160,160)
+}
+#about {
+    font-weight: 100;
+}
+@media only screen and (max-width: 800px) {
+    .gridelement {
+        display: block;
+    }
+    #gamethumbnail {
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #gamethumbnail {
+        height: auto;
+    }
+    #about {
+        font-size: 100%;
+    }
+}
+
+#ignoregrid {
+    display: block;
+}
+
+#tableofcontents {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+  
+#tableofcontents td, th {
+    border: 1px solid rgb(50,50,50);
+    text-align: left;
+    padding: 8px;
+}
+  
+#tableofcontents tr:nth-child(even) {
+    background-color: rgb(50,50,50);
+}
+
+
+@media only screen and (max-width: 300px) {
+    #tableofcontents {
+        font-size: small;
+    }
+}
+
+.play_button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.play_button a {
+    display: block;
+    background: #897656;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    padding: 10px;
+    border-radius: 0.5rem;
+
+    -o-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.play_button a:hover {
+    background: #7c6c51;
+    box-shadow: 0 0 0.25rem black;
+
+    -o-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}

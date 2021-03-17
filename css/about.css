@@ -1,0 +1,177 @@
+.gallery {
+    background-blend-mode: multiply; 
+    background-image: url('https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg'); 
+    background-size: 100%; background-position: center;
+    background-color: rgb(255,100,100); 
+    color: white;
+    font-family: 'Trebuchet MS';
+
+    transition: background-size 0.2s ease-in-out;
+}
+
+.gallery:hover {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.gallery div {
+    padding: 2.5%;
+    padding-top: 50px; padding-bottom: 50px;
+    text-align: center;
+    font-size: 400%;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    
+    transition: all 0.2s ease-in-out;
+} 
+
+.gallery div:hover {
+    background-color: rgb(0,0,0,0.5);
+} 
+
+@media only screen and (max-width: 1000px) {
+    .gallery div {
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .gallery div {
+        font-size: 200%;
+    }
+}
+
+/* Dev */
+
+.dev {
+    background-blend-mode: multiply; 
+    background-image: url('https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg'); 
+    background-size: 100%; background-position: center;
+    background-color: rgb(255,100,255); 
+    color: white;
+    font-family: 'Trebuchet MS';
+
+    transition: background-size 0.2s ease-in-out;
+}
+
+.dev:hover {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.dev div {
+    padding: 2.5%;
+    padding-top: 50px; padding-bottom: 50px;
+    text-align: center;
+    font-size: 400%;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    
+    transition: all 0.2s ease-in-out;
+} 
+
+.dev div:hover {
+    background-color: rgb(0,0,0,0.5);
+} 
+
+@media only screen and (max-width: 1000px) {
+    .dev div {
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .dev div {
+        font-size: 200%;
+    }
+}
+
+/* Bug Fixing */
+
+.bugfix {
+    background-blend-mode: multiply; 
+    background-image: url('https://images.all-free-download.com/images/graphicthumb/black_balls_vector_seamless_pattern_581951.jpg'); 
+    background-size: 100%; background-position: center;
+    background-color: rgb(255,150,100); 
+    color: white;
+    font-family: 'Trebuchet MS';
+
+    transition: background-size 0.2s ease-in-out;
+}
+
+.bugfix:hover {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.bugfix div {
+    padding: 2.5%;
+    padding-top: 50px; padding-bottom: 50px;
+    text-align: center;
+    font-size: 400%;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    
+    transition: all 0.2s ease-in-out;
+} 
+
+.bugfix div:hover {
+    background-color: rgb(0,0,0,0.5);
+} 
+
+@media only screen and (max-width: 1000px) {
+    .bugfix div {
+        font-size: 200%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .bugfix div {
+        font-size: 200%;
+    }
+}
+
+/* Features */
+
+.features {
+    background-blend-mode: multiply; 
+    background-image: url('https://images.all-free-download.com/images/graphicthumb/black_balls_vector_seamless_pattern_581951.jpg'); 
+    background-size: 100%; background-position: center;
+    background-color: rgb(100,205,100); 
+    color: white;
+    font-family: 'Trebuchet MS';
+
+    transition: background-size 0.2s ease-in-out;
+}
+
+.features:hover {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.features div {
+    padding: 2.5%;
+    padding-top: 50px; padding-bottom: 50px;
+    text-align: center;
+    font-size: 400%;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    
+    transition: all 0.2s ease-in-out;
+} 
+
+.features div:hover {
+    background-color: rgb(0,0,0,0.5);
+} 
+
+@media only screen and (max-width: 1000px) {
+    .features div {
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .features div {
+        font-size: 200%;
+    }
+}
