@@ -1,4 +1,4 @@
-<html style="opacity: 0;">
+<html id="Error" style="opacity: 0;">
     <head>
         <title>Page not found!</title>
         <link rel="icon" type="image/png" href="./icons/favicon.png">
@@ -7,8 +7,12 @@
             body h1 { display: block; text-align: center; color: #5d6680 }
             body h3 { display: block; text-align: center; font-weight: 100;}
             body { font-family: Calibri; margin: 25px; background-color: aliceblue;}
-            html { transition: all 0.2s ease-in; opacity: 1;}
+            html.show { transition: all 0.2s ease-in; opacity: 1;}
         </style>
+        <script>
+            var d = document.getElementById('Error')
+            d.classList.add('show')
+        </script>
     </head>
     <body>
         <h1>Page not found!</h1>
