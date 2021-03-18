@@ -10,8 +10,7 @@
             body {
                 cursor: default; 
                 position: relative;
-                font-family: 
-                Calibri; 
+                font-family: Calibri; 
                 margin: 25px;
                 left: 50%; margin-left: -250px;
                 background-color: aliceblue; 
@@ -19,6 +18,14 @@
             }
             .box { padding: 10px; background-color: #cfd4e2; margin-bottom: 12.5px; transition: all 0.1s ease-in-out;}
             .box:hover { box-shadow: 0 0 0.33rem grey;}
+
+            @media (max-width: 494px) {
+                body {
+                    position: auto;
+                    margin-left: auto;
+                    margin: 25px;
+                }
+            }
         </style>
     </head>
     <body>
