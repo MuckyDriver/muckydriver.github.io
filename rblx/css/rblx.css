@@ -20,17 +20,13 @@ body {
     }
 }
 
-#codeList {
+#cc {
     padding: 5px; 
     background-color: rgb(255,255,255); 
     margin-top: 5px; 
     border-radius: 10px; 
 }
 
-#codeList:focus {
+#cc:focus {
     outline: none;
-}
-
-#codeList:active {
-    background-color: rgb(245,245,245); 
 }
