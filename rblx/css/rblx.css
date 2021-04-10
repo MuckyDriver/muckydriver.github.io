@@ -12,14 +12,6 @@ body {
 .box { padding: 10px; background-color: #cfd4e2; margin-bottom: 12.5px; transition: all 0.1s ease-in-out;}
 .box:hover { box-shadow: 0 0 0.33rem grey;}
 
-@media (max-width: 550px) {
-    body {
-        margin-left: none;
-        margin: 25px;
-        left: 0;
-    }
-}
-
 #cc {
     padding: 5px; 
     background-color: rgb(255,255,255); 
@@ -29,4 +21,12 @@ body {
 
 #cc:focus {
     outline: none;
+}
+
+@media (max-width: 550px) {
+    body {
+        margin-left: none;
+        margin: 25px;
+        left: 0;
+    }
 }
