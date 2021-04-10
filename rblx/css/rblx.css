@@ -12,14 +12,14 @@ body {
 .box { padding: 10px; background-color: #cfd4e2; margin-bottom: 12.5px; transition: all 0.1s ease-in-out;}
 .box:hover { box-shadow: 0 0 0.33rem grey;}
 
-#cc {
+details {
     padding: 5px; 
     background-color: rgb(255,255,255); 
     margin-top: 5px; 
     border-radius: 10px; 
 }
 
-#cc:focus {
+details:focus {
     outline: none;
 }
 
