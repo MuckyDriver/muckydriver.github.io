@@ -16,12 +16,13 @@ body {
     background: none;
     border-width: 2px;
     border-color: #5d6680;
-    border-style: inset;
+    border-style: solid;
     padding: 10px;
     margin-bottom: 12.5px;
 }
 .box2:hover {
     border-width: 10px;
+    padding: 0px;
 }
 
 details {
