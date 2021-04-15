@@ -45,6 +45,7 @@ details:focus {
 
 .img80px {
     width: 80px; height: 80px;
+    border-radius: 100%;
 }
 .out_img80px {
     margin: 0 auto;
