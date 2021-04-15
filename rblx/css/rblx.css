@@ -49,7 +49,7 @@ details:focus {
     margin: 0 auto;
 }
 .out_img80px {
-    left: 50%; margin-right: 80px;
+    left: 50%; margin-left: -80px;
     display: block;
     position: relative;
 }
