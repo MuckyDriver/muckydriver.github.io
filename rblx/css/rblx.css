@@ -14,10 +14,11 @@ body {
 
 .box2 {
     background: none;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #5d6680;
     border-style: solid;
     padding: 10px;
+    margin-bottom: 12.5px;
 }
 
 details {
