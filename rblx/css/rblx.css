@@ -20,6 +20,9 @@ body {
     padding: 10px;
     margin-bottom: 12.5px;
 }
+.box2:hover {
+    border-width: 10px;
+}
 
 details {
     padding: 5px; 
