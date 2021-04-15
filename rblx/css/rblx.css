@@ -46,3 +46,6 @@ details:focus {
 .img80px {
     width: 80px; height: 80px;
 }
+.img80px::before {
+    margin: 0 auto;
+}
