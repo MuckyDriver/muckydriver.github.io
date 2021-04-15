@@ -49,4 +49,5 @@ details:focus {
 }
 .out_img80px {
     margin: 0 auto;
+    display: block;
 }
