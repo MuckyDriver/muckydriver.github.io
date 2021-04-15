@@ -17,7 +17,9 @@ body {
     border-width: 1px;
     border-color: #5d6680;
     border-style: solid;
+    padding: 10px;
 }
+
 details {
     padding: 5px; 
     background-color: rgb(255,255,255); 
