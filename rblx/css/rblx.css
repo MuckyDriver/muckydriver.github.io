@@ -46,6 +46,6 @@ details:focus {
 .img80px {
     width: 80px; height: 80px;
 }
-.img80px::before {
+.img80px::after {
     margin: 0 auto;
 }
