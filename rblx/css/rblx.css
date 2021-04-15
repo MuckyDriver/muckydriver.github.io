@@ -48,6 +48,6 @@ details:focus {
     border-radius: 100%;
 }
 .out_img80px {
-    margin: 0 auto;
+    margin: auto 0;
     display: block;
 }
