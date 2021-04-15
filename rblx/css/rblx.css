@@ -12,6 +12,10 @@ body {
 .box { padding: 10px; background-color: #cfd4e2; margin-bottom: 12.5px; transition: all 0.1s ease-in-out;}
 .box:hover { box-shadow: 0 0 0.33rem grey;}
 
+.box2 {
+    background: none;
+    border: 1px #5d6680 solid;
+}
 details {
     padding: 5px; 
     background-color: rgb(255,255,255); 
