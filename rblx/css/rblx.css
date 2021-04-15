@@ -43,7 +43,6 @@ details:focus {
     }
 }
 
-#click1 {
-    max-width: 80px;
-    max-height: 80px;
+.img80px {
+    width: 80px; height: 80px;
 }
