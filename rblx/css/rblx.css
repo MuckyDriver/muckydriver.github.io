@@ -21,7 +21,7 @@ body {
     margin-bottom: 12.5px;
 }
 .box2:hover {
-    background-color: rgba(95,103,129, 0.5);
+    background-color: rgba(95,103,129, 0.1);
 }
 
 details {
