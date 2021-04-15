@@ -14,7 +14,9 @@ body {
 
 .box2 {
     background: none;
-    border: 1px #5d6680 solid;
+    border: solid;
+    border-width: 1px;
+    border-color: #5d6680;
 }
 details {
     padding: 5px; 
