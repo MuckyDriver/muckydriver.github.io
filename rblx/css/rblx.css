@@ -21,8 +21,7 @@ body {
     margin-bottom: 12.5px;
 }
 .box2:hover {
-    border-width: 10px;
-    padding: 0px;
+    background: rgba(#5f6781, 0.1)
 }
 
 details {
