@@ -17,6 +17,7 @@ body {
     border-width: 2px;
     border-color: #5d6680;
     border-style: solid;
+    border: inset;
     padding: 10px;
     margin-bottom: 12.5px;
 }
