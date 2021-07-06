@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mucky Driver - About</title>
+        <title>Mucky Driver | About</title>
+        <link rel="icon" href="./images/favicon.png">
+        <meta name="description" content="">
+        <meta name="keywords" content="Mucky Driver, ROBLOX, Roblox, mdr, muckydriver">
+        <meta name="author" content="DHC Gaming">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <link rel="icon" type="image/png" href="/icons/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link rel="stylesheet" type="text/css" href="/css/index.css">
-        <link rel="stylesheet" type="text/css" href="/css/about.css">
-        <script src="/javascript/hamburger_menu.js"></script>
+        <link rel="stylesheet" href="./css/index.css">
     </head>
     <body>
-        <div class="socials">
-            <a id="s1" style="margin-top: 0;" href="https://discord.gg/kPZj4su" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/discord_icon_130958.png"></a>
-            <a id="s2" href="https://twitter.com/Claasgreeneye" target="_blank"><img src="/images/twitterIcon.jpg"></a>
-            <a id="s3" href="https://devforum.roblox.com/u/dhcgamer1055/summary" target="_blank"><img src="https://pbs.twimg.com/profile_images/1359616555198287872/tJebZijE_400x400.png"></a>
-        </div>
-        <a id="BackToTheTop">↖ Top</a>
-        <div class="hamburgerMenu" id="minimenu-ham" style="display: none;">
-            <h4>MENU</h4>
-            <a href="/">Home</a>
-            <a href="/play.html">Play</a>
-            <a class="active" href="/about.html">About</a>
-            <button class="close_btn_menu" id="CloseHamMenu">CLOSE MENU</button>
-            <a style="display: inline-flex" href="https://discord.gg/kPZj4su" target="_blank"><img style="max-width: 45px; max-height: 45px;" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/discord_icon_130958.png"></a>
-            <a style="display: inline-flex" href="https://twitter.com/Claasgreeneye" target="_blank"><img style="max-width: 45px; max-height: 45px;" src="/images/twitterIcon.jpg"></a>
-            <a style="display: inline-flex" href="https://devforum.roblox.com/u/dhcgamer1055/summary" target="_blank"><img style="max-width: 45px; max-height: 45px;" src="https://www.net-aware.org.uk/siteassets/images-and-icons/application-icons/app-icon-roblox.png?w=585&scale=down"></a>
-        </div>
-        <header id="mainHeader">
-            <img class="icon" src="./icons/icon.ico">
+        <header>
+            <div class="menu-logo">
+                <img src="images/favicon.png">
+            </div>
             <div class="menu">
-                <a href="/">Home</a>
-                <a href="/play.html">Play</a>
-                <a class="active" href="/about.html">About</a>
+                <a href="index.html"><img src="images/homebutton.png"><div>Home Page</div></a>
+                <a href="play.html"><img src="images/playbutton.png"><div>Play</div></a>
+                <a href="about.html" class="active"><img src="images/infobutton.png"><div>About Game</div></a>
+                <a href="downloads.html"><img src="images/downloadbutton.png"><div>Download Manager</div></a>
+                <a href="studio.html"><img src="images/roblox.png"><div>Roblox Studio</div></a>
+                <a href="http://status.muckydriver.net" target="_blank"><img src="images/status.png"><div>Games Status</div></a>
+                <a href="updates.html"><img src="images/updates.png"><div>Update Logs</div></a>
+                <a href="socials.html"><img src="images/socials.png"><div>Social Media</div></a>
             </div>
-            <img class="hamburger" src="/images/hamburger.png" id="OpenHamMenu">
         </header>
-        <div class="page gallery" id="pageMain" onclick="location.replace('/game-gallery.html')"><div>Gallery</div></div>
-        <div class="page dev" id="pageMain" onclick="location.replace('/about-credits.html')"><div>About / Credits</div></div>
-        <div class="page bugfix" id="pageMain" onclick="location.replace('/bug-reporting.html')"><div>Bug Reporting</div></div>
-        <div class="page features" id="pageMain" onclick="OpenFeaturesPage()"><div>Features</div></div>
-        <div class="page" id="pageMain">
-            <h2 class="header3">This page is under construction!</h2>
-            <div class="videos">
-                Come back another time when this page has been fully completed with all the other pages which go with it. This page is mostly likely not be finished until the game
-                has been verified and completed for public use. See you then!
+        <div class="page">
+            <div class="list-buttons">
+                <a id="a01" class="preview-buttons active" onclick="OpenUp('about-credits-e','a01')">About / Credits</a><!--
+                --><a id="a02" class="preview-buttons" onclick="OpenUp('gallery-e','a02')">Gallery<span>9</span></a><!--
+                --><a id="a03" class="preview-buttons" onclick="OpenUp('features-e','a03')">Features<span>NEW</span></a><!--
+                --><a id="a04" class="preview-buttons"  onclick="OpenUp('bug-report-e','a04')">Bug Report</a>
+            </div>
+            <div class="list-item" id="about-credits-e">
+                <p>Under Construction (about-credits)</p>
+            </div>
+            <div class="list-item" id="gallery-e">
+                <div class="image"><a target="_blank" href="./images/gallery/gallery1.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery1.JPG"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery2.png" class="viewimage">View Full Image</a><img src="./images/gallery/gallery2.png"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery3.jpg" class="viewimage">View Full Image</a><img src="./images/gallery/gallery3.jpg"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery4.png" class="viewimage">View Full Image</a><img src="./images/gallery/gallery4.png"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery5.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery5.JPG"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery6.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery6.JPG"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery7.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery7.JPG"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery8.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery8.JPG"></div>
+                <div class="image"><a target="_blank" href="./images/gallery/gallery9.JPG" class="viewimage">View Full Image</a><img src="./images/gallery/gallery9.JPG"></div>
+            </div>
+            <div class="list-item" id="features-e">
+                <p>Under Construction (features-e)</p>
+            </div>
+            <div class="list-item" id="bug-report-e">
+                <h2>How to report a bug?</h2>
+                <p style="margin-top: 10px;">
+                    To report a bug you must be joined to our discord server!<br>
+                    Here are the steps on how to make a report on a bug for the game or the website:<br><br>
+
+                    1. Firstly go to the channel named <span class="discord">#bug-reporting</span> in category <span class="discord">Other</span><br><br>
+
+                    2. Inside that channel do a command <span class="coded">!bug-report {game or website} {lighting, graphics, ui, controls, sound etc...} {detailed info of the bug you're experiencing}</span><br>
+                    3. In a couple of hours to days your bug report may be responded to by our staff or we will approve it!
+                </p>
             </div>
         </div>
+        <footer>
+            <div class="this">
+                <div class="_notice">
+                    ⚠️ Website under contruction, bugs may happen during this time.<br>
+                    More about this website <a href="#?=about2021mdrwebsitenew">here</a>
+                </div>
+                <div class="contact">
+                    <u>Contact Us / Social Links</u><br><br>
+                    <a href="?contact"><img src="images/socials_twitter.png"></a>
+                    <a href="?contact"><img src="images/socials_roblox.png"></a>
+                    <a href="?contact"><img src="images/socials_discord.jpg"></a>
+                    <a href="?contact"><img src="images/socials_yt.png"></a>
+                </div>
+            </div>
+        </footer>
+        <footer>
+            <div class="this" style="color: gray; font-style: italic;">
+                <div style="grid-area: right;">
+                    Made by DHCGaming on behalf of DHCWeblogistics<br>(C) Copyright 2021-Present
+                </div>
+            </div>
+        </footer>
     </body>
-
-    <script src="/javascript/scrolldesign.js"></script>
-    <script src="/javascript/draguppage.js"></script>
+    <script src="./js/AboutPageOpenUp.js"></script>
 </html>
