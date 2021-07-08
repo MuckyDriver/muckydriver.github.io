@@ -13,4 +13,4 @@ body {
 }
 
 .header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem}
-.header a { font-size: small;}
+.header a { font-size: smaller;}
