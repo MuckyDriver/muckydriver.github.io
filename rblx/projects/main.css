@@ -24,5 +24,3 @@ body {
     color: green;
 } 
 .header a:hover { background-color: lightgreen; }
-
-.header div { float: right}
