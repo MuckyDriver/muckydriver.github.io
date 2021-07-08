@@ -22,10 +22,6 @@ body {
     background-color: rgb(230,230,230); 
     text-decoration: none; 
     color: green;
+    opacity: 0,5;
 } 
-.header a:hover { background-color: lightgreen; }
-
-.header div {
-    margin-top: 1rem;
-    background-color: rgb(198, 236, 198);
-}
+.header a:hover { opacity: 1; }
