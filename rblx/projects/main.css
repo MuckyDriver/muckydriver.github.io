@@ -12,4 +12,4 @@ body {
     border-radius: 0.5rem;
 }
 
-.header { color: green; box-shadow: 0 0 1rem grey;}
+.header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem}
