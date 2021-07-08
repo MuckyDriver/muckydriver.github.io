@@ -3,18 +3,18 @@ body {
     max-width: 1200px;
     margin-left: auto; margin-right: auto;
     padding: 20px;
+    padding-top: 0;
 }
 
 .topInfo {
     background: rgb(220,220,220);
     display: block;
-    padding: 10px;
+    padding: 10px; padding-top: 0;
     border-radius: 0.5rem;
 }
 
 .header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem}
 .header a { 
-    font-size: small; 
     margin-left: 5px; margin-left: 5px; 
     padding: 5px; 
     background-color: rgb(230,230,230); 
