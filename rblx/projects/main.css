@@ -15,6 +15,7 @@ body {
 
 .header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem}
 .header a { 
+    font-size: 24px;
     margin-left: 5px; margin-left: 5px; 
     padding: 5px; 
     background-color: rgb(230,230,230); 
