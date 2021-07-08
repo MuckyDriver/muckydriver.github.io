@@ -14,7 +14,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem}
+.header { color: green; box-shadow: 0 0 1rem grey; padding: 1rem; margin-block-start: 0;}
 .header a { 
     font-size: 18px;
     margin-right: 5px; 
