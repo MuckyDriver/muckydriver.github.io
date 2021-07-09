@@ -306,6 +306,7 @@ footer div a img:hover { transform: scale(.9); }
     max-width: 1200px;
     margin-right: auto; margin-left: auto; 
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .list-buttons {
