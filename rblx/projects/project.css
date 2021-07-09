@@ -12,7 +12,7 @@ a span.link { color: lightskyblue; }
 
 div.code { 
     padding: 10px;
-    box-shadow: inset 0 0 1rem grey;
+    box-shadow: inset 0 0 .33rem grey;
 }
 
 .code span#t { color: rgb(74, 126, 223) }
