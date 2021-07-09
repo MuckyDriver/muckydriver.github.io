@@ -18,3 +18,4 @@ div.code {
 .code span#t { color: rgb(74, 126, 223) }
 .code span#str { color: palevioletred; }
 .code span#num { color: lightseagreen; }
+.code span#func { color: orange; }
