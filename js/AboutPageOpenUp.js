@@ -20,5 +20,5 @@ var count = 0;
 
 setInterval(function() {
     count += 1
-    ClockItem.innerText = count + "s since login"
+    ClockItem.innerHTML = count + "s since login"
 }, 1000)
