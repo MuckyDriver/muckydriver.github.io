@@ -422,3 +422,10 @@ footer div a img:hover { transform: scale(.9); }
     background-color: rgb(90,90,90);
     border-radius: 0.5rem;
 }
+
+#user-clock-local {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px; margin-right: 150px;
+}

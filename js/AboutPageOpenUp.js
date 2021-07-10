@@ -14,3 +14,13 @@ function OpenUp(par, btn) {
     button.classList = 'preview-buttons active'
     div.style.display = 'block'
 }
+
+const ClockItem = document.getElementById("user-clock-local")
+var count = 0;
+
+while (true) {
+    setTimeout(function() {
+        count += 1
+        ClockItem.innerText = count + "s since login"
+    }, 1000)
+}
