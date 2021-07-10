@@ -428,4 +428,6 @@ footer div a img:hover { transform: scale(.9); }
     top: 0;
     right: 0;
     width: 150px; margin-right: 150px;
+    z-index: 1000
+    ;
 }
