@@ -434,4 +434,10 @@ footer div a img:hover { transform: scale(.9); }
     color: white;
     text-align: center;
     padding: 3px;
+    cursor: default;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#user-clock-local:hover {
+    opacity: 0.2
 }
