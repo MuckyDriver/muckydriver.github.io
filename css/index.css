@@ -428,6 +428,8 @@ footer div a img:hover { transform: scale(.9); }
     top: 0;
     right: 0;
     width: 150px; margin-right: 150px;
-    z-index: 1000
-    ;
+    z-index: 1000;
+    background-color: rgb(15,15,15);
+    border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem;
+    color: white;
 }
