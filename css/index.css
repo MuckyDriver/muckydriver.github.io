@@ -8,6 +8,7 @@ body::-webkit-scrollbar-track { background-color: rgb(25,25,25) ;}
 
 /* Header */
 header { 
+    font-family: 'Trebuchet MS';
     overflow-y: hidden;
     overflow-x: hidden;
     background: rgb(40,40,40);
