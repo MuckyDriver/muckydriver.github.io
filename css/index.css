@@ -427,7 +427,7 @@ footer div a img:hover { transform: scale(.9); }
     position: fixed;
     top: 0;
     right: 0;
-    width: 150px; margin-right: 150px;
+    width: 180px; margin-right: 10px;
     z-index: 1000;
     background-color: rgb(30,30,30);
     border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem;
