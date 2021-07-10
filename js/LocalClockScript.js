@@ -7,6 +7,6 @@ setInterval(function() {
     if (count < 60) {
         ClockItem.innerHTML = count + "s since on this page!"
     } else {
-        ClockItem.innerHTML = (count/60) + "m since on this page!"
+        ClockItem.innerHTML = Math.floor(count/60) + "m since on this page!"
     }
 }, waitTime)
