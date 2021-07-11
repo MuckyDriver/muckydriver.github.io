@@ -35,5 +35,5 @@ Timer = function() {
 
     var Mins = Math.floor(MinSeconds/60);
     var Hours = Math.floor(HourSeconds/3600);
-    StopWatch.innerHTML = Hours + "h" + Mins + "m " + Seconds + "s"
+    StopWatch.innerHTML = Hours + "h " + Mins + "m " + Seconds + "s"
 }
