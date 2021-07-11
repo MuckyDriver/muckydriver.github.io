@@ -26,7 +26,8 @@ btn_reset.onclick = function() {
 }
 
 Timer = function() {
-    Step += 1; Step += Math.floor(Step/100);
+    Step += 1; 
+    Step = Math.floor(Step/100);
     Seconds += Step; MinSeconds += Step; HourSeconds += Step;
     Milliseconds += 10
 
