@@ -24,11 +24,11 @@ btn_reset.onclick = function() {
 
 Timer = function() {
     Seconds += 1
-    Mins = Math.floor(Seconds/60)
+    Mins += Math.floor(1/60)
 
     if (Seconds >= 60) {
         Seconds = 0
     }
 
-    StopWatch.innerHTML = Mins + "m" + Seconds + "s"
+    StopWatch.innerHTML = Mins + "m " + Seconds + "s"
 }
