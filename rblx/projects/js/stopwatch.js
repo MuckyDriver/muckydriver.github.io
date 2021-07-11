@@ -12,7 +12,7 @@ var Step = 0;
 
 btn_start.onclick = function() {
     clearInterval(Interval)
-    Interval = setInterval(Timer, 10)
+    Interval = setInterval(Timer, 1)
 }
 
 btn_stop.onclick = function() {
@@ -29,7 +29,7 @@ Timer = function() {
     Step += 1/100; 
     Step = Math.floor(Step);
     Seconds += Step; MinSeconds += Step; HourSeconds += Step;
-    Milliseconds += 10
+    Milliseconds += 1
 
     if (Seconds >= 60) {
         Seconds = 0
