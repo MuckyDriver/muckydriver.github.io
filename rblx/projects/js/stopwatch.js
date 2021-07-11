@@ -7,10 +7,11 @@ var Interval;
 var Seconds = 0;
 var MinSeconds = 0;
 var HourSeconds = 0;
+var Milliseconds = 0;
 
 btn_start.onclick = function() {
     clearInterval(Interval)
-    Interval = setInterval(Timer, 1000)
+    Interval = setInterval(Timer, 10)
 }
 
 btn_stop.onclick = function() {
@@ -19,12 +20,13 @@ btn_stop.onclick = function() {
 
 btn_reset.onclick = function() {
     clearInterval(Interval);
-    Seconds = 0; MinSeconds = 0; HourSeconds = 0;
+    Seconds = 0; MinSeconds = 0; HourSeconds = 0; MinSeconds = 0;
     StopWatch.innerHTML = Seconds + "s";
 }
 
 Timer = function() {
-    Seconds += 1; MinSeconds += 1; HourSeconds += 1;
+    Seconds += 1/100; MinSeconds += 1/100; HourSeconds += 1/100;
+    Milliseconds += 10
 
     if (Seconds >= 60) {
         Seconds = 0
@@ -35,5 +37,5 @@ Timer = function() {
 
     var Mins = Math.floor(MinSeconds/60);
     var Hours = Math.floor(HourSeconds/3600);
-    StopWatch.innerHTML = Hours + "h " + Mins + "m " + Seconds + "s"
+    StopWatch.innerHTML = Hours + "h " + Mins + "m " + Seconds + "s " + Milliseconds + "ms"
 }
