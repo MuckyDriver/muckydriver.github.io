@@ -3,3 +3,8 @@
     text-align: center;
     background: lightgrey;
 }
+
+button {
+    display: block;
+    background: lightskyblue;
+}
