@@ -9,7 +9,7 @@ body {
 .timer {
     padding: 10px;
     text-align: center;
-    background: rgba(160,160,160,0.25);
+    background: rgba(160,160,160,0.5);
     margin-bottom: 10px;
     font-family: 'Arial';
 }
