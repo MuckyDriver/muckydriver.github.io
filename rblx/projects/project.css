@@ -24,12 +24,12 @@ button {
     cursor: pointer;
 }
 
-button#start {
-    background: green;
+#start {
+    background: rgb(143, 255, 143);
 }
 
-button#stop {
-    background: indianred;
+#stop {
+    background: rgb(241, 140, 140);
 }
 
 button:hover {
