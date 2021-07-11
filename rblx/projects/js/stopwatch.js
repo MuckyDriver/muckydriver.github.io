@@ -24,7 +24,7 @@ btn_reset.onclick = function() {
 
 Timer = function() {
     Seconds += 1
-    Mins += Math.floor(1/60)
+    Mins += (1/60)-(1/60)%1
 
     if (Seconds >= 60) {
         Seconds = 0
