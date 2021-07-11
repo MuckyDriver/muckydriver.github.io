@@ -8,6 +8,7 @@ var Seconds = 0;
 var MinSeconds = 0;
 var HourSeconds = 0;
 var Milliseconds = 0;
+var Step = 0;
 
 btn_start.onclick = function() {
     clearInterval(Interval)
@@ -25,7 +26,7 @@ btn_reset.onclick = function() {
 }
 
 Timer = function() {
-    var Step = Math.floor(1/100)
+    Step += Math.round(1/100)
     Seconds += Step; MinSeconds += Step; HourSeconds += Step;
     Milliseconds += 10
 
