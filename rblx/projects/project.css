@@ -1,5 +1,5 @@
 body {
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin: 0;
     padding: 1em;
@@ -16,7 +16,7 @@ body {
 button {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     margin-bottom: 5px;
     border: none;
     padding: 10px;
@@ -28,5 +28,5 @@ button:hover {
 }
 
 button:active {
-    box-shadow: 0 5px 0.5rem grey;
+    box-shadow: 0 4px 0.5rem rgba(200,200,200,0.25);
 }
