@@ -5,6 +5,7 @@ const btn_reset = document.getElementById('reset')
 
 var Interval;
 var Seconds = 0;
+var Mins = 0;
 
 btn_start.onclick = function() {
     clearInterval(Interval)
@@ -17,11 +18,17 @@ btn_stop.onclick = function() {
 
 btn_reset.onclick = function() {
     clearInterval(Interval);
-    Seconds = 0;
+    Seconds = 0; Mins = 0;
     StopWatch.innerHTML = Seconds + "s";
 }
 
 Timer = function() {
     Seconds += 1
-    StopWatch.innerHTML = Seconds + "s"
+    Mins = Math.floor(Seconds/60)
+
+    if (Seconds >= 60) {
+        Seconds = 0
+    }
+
+    StopWatch.innerHTML = Mins + "m" + Seconds + "s"
 }
