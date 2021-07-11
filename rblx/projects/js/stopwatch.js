@@ -19,7 +19,7 @@ btn_stop.onclick = function() {
 
 btn_reset.onclick = function() {
     clearInterval(Interval);
-    Seconds = 0; MinSeconds = 0; HourSeconds = 0; MinSeconds = 0;
+    Seconds = 0; MinSeconds = 0; HourSeconds = 0;
     StopWatch.innerHTML = Seconds + "s";
 }
 
@@ -31,9 +31,6 @@ Timer = function() {
     }
     if ((MinSeconds/60) >= 60) {
         MinSeconds = 0
-    }
-    if (Milliseconds >= 1000) {
-        Milliseconds = 0
     }
 
     var Mins = Math.floor(MinSeconds/60);
