@@ -35,7 +35,7 @@ Timer = function() {
     if ((MinSeconds/60) >= 60) {
         MinSeconds = 0
     }
-    if (Milliseconds >= 60) {
+    if (Milliseconds >= 1000) {
         Milliseconds = 0
     }
 
