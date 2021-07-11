@@ -20,7 +20,7 @@ btn_stop.onclick = function() {
 btn_reset.onclick = function() {
     clearInterval(Interval);
     Seconds = 0; MinSeconds = 0; HourSeconds = 0;
-    StopWatch.innerHTML = Seconds + "s";
+    StopWatch.innerHTML = "0h 0m 0s";
 }
 
 Timer = function() {
