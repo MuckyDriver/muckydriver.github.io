@@ -5,10 +5,10 @@ const btn_reset = document.getElementById('reset')
 const input = document.getElementById('input')
 
 var Interval;
-var Seconds = 0;
+var Seconds;
 
 btn_start.onclick = function() { 
-    var content = Number(input.textContent)
+    var content = Number(input.value)
     Seconds = content
     clearInterval(Interval); 
     Interval = setInterval(Timer, 1000) 
