@@ -34,6 +34,7 @@ Timer = function() {
         TimerElement.innerHTML = "Finish!";
 
         clearInterval(Interval)
+    } else {
+        TimerElement.innerHTML = Seconds + "s left"
     }
-    TimerElement.innerHTML = Seconds + "s left"
 }
