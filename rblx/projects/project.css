@@ -39,3 +39,11 @@ button:hover {
 button:active {
     box-shadow: 0 4px 0.5rem rgba(200,200,200,0.25);
 }
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
