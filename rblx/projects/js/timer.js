@@ -1,4 +1,4 @@
-const Timer = document.getElementById('timer')
+const TimerElement = document.getElementById('timer')
 const btn_start = document.getElementById('start')
 const btn_stop = document.getElementById('stop')
 const btn_reset = document.getElementById('reset')
@@ -22,14 +22,14 @@ btn_reset.onclick = function() {
     clearInterval(Interval); 
     Seconds = 0;
     input.textContent = ''
-    StopWatch.innerHTML = "0s"; 
+    TimerElement.innerHTML = "0s"; 
 }
 
 Timer = function() {
     Seconds += 1;
 
     if (Seconds <= 0) {
-        Timer.style.color = 'rgb(200,0,0)'
+        TimerElement.style.color = 'rgb(200,0,0)'
     }
-    StopWatch.innerHTML = Seconds + "s left"
+    TimerElement.innerHTML = Seconds + "s left"
 }
