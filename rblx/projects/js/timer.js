@@ -11,6 +11,7 @@ btn_start.onclick = function() {
     var content = Number(input.value)
     Seconds = content + 1
     clearInterval(Interval); 
+    TimerElement.style.color = 'rgb(0,0,0)'
     Interval = setInterval(Timer, 1000) 
 }
 
@@ -23,7 +24,7 @@ btn_reset.onclick = function() {
     Seconds = 0;
     input.value = ''
     TimerElement.style.color = 'rgb(0,0,0)'
-    TimerElement.innerHTML = "0s"; 
+    TimerElement.innerHTML = "Ready!"; 
 }
 
 Timer = function() {
