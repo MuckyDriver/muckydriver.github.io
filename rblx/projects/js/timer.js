@@ -21,7 +21,8 @@ btn_stop.onclick = function() {
 btn_reset.onclick = function() { 
     clearInterval(Interval); 
     Seconds = 0;
-    input.textContent = ''
+    input.value = ''
+    TimerElement.style.color = 'rgb(0,0,0)'
     TimerElement.innerHTML = "0s"; 
 }
 
