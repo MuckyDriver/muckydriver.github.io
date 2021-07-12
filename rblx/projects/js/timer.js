@@ -26,10 +26,12 @@ btn_reset.onclick = function() {
 }
 
 Timer = function() {
-    Seconds += 1;
+    Seconds -= 1;
 
     if (Seconds <= 0) {
         TimerElement.style.color = 'rgb(200,0,0)'
+        TimerElement.innerHTML = "Finish!"
+        clearInterval(Interval)
     }
     TimerElement.innerHTML = Seconds + "s left"
 }
