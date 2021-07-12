@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 1em;
     margin-left: auto; margin-right: auto;
+    font-family: 'Calibri';
 }
 
 .timer {
@@ -11,7 +12,6 @@ body {
     text-align: center;
     background: rgba(160,160,160,0.5);
     margin-bottom: 10px;
-    font-family: 'Arial';
 }
 
 button {
@@ -30,6 +30,10 @@ button {
 
 #stop {
     background: rgb(241, 140, 140);
+}
+
+#reset {
+    background: rgb(255, 215, 140);
 }
 
 button:hover {
