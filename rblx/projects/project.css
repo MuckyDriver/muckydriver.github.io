@@ -37,7 +37,7 @@ button:hover {
 }
 
 button:active {
-    box-shadow: 0 4px 0.5rem rgba(200,200,200,0.25);
+    box-shadow: 0 4px 0.5rem rgba(160,160,160,0.25);
 }
 
 input {
