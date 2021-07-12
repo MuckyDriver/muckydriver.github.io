@@ -9,7 +9,7 @@ var Seconds;
 
 btn_start.onclick = function() { 
     var content = Number(input.value)
-    Seconds = content
+    Seconds = content + 1
     clearInterval(Interval); 
     Interval = setInterval(Timer, 1000) 
 }
@@ -30,8 +30,9 @@ Timer = function() {
     Seconds -= 1;
 
     if (Seconds <= 0) {
-        TimerElement.style.color = 'rgb(200,0,0)'
-        TimerElement.innerHTML = "Finish!"
+        TimerElement.style.color = 'rgb(200,0,0)';
+        TimerElement.innerHTML = "Finish!";
+
         clearInterval(Interval)
     }
     TimerElement.innerHTML = Seconds + "s left"
