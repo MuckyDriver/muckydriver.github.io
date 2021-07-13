@@ -7,6 +7,7 @@ body {
 }
 
 .timer {
+    color: white;
     padding: 10px;
     text-align: center;
     background: rgba(255,255,255,0.25);
@@ -21,26 +22,15 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
-}
-
-#start {
-    background: rgb(143, 255, 143);
-}
-
-#stop {
-    background: rgb(241, 140, 140);
-}
-
-#reset {
-    background: rgb(255, 215, 140);
+    background: rgb(45,45,45);
 }
 
 button:hover {
-    filter: brightness(0.9)
+    border: inset grey 1px;
 }
 
 button:active {
-    box-shadow: 0 4px 0.5rem rgba(120,120,120,0.4);
+    border: inset white 1px;
 }
 
 input {
