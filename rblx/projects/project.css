@@ -37,6 +37,7 @@ a#reset:hover { background: rgba(45,20,0) }
 a:active { border: solid white 1px; }
 
 input {
+    border: solid green 1px;
     display: block;
     width: 376px;
     margin-bottom: 5px;
