@@ -14,7 +14,7 @@ body {
     margin-bottom: 10px;
 }
 
-button {
+a {
     display: block;
     width: 100%;
     max-width: 400px;
@@ -26,11 +26,11 @@ button {
     color: white;
 }
 
-button:hover {
+a:hover {
     border: inset grey 2px;
 }
 
-button:active {
+a:active {
     border: inset white 2px;
 }
 
