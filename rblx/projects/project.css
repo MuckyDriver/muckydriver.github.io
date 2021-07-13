@@ -26,11 +26,11 @@ a {
 }
 
 a:hover {
-    border: inset grey 2px;
+    border: solid grey 1px;
 }
 
 a:active {
-    border: inset white 2px;
+    border: solid white 1px;
 }
 
 input {
