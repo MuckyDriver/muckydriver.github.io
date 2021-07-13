@@ -23,14 +23,15 @@ button {
     padding: 10px;
     cursor: pointer;
     background: rgb(45,45,45);
+    color: white;
 }
 
 button:hover {
-    border: inset grey 1px;
+    border: inset grey 2px;
 }
 
 button:active {
-    border: inset white 1px;
+    border: inset white 2px;
 }
 
 input {
