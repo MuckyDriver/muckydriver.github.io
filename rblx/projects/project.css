@@ -15,9 +15,6 @@ body {
 }
 
 a {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     display: block;
     max-width: 400px;
     height: 38px;
@@ -28,19 +25,16 @@ a {
     cursor: pointer;
     background: rgb(45,45,45);
     color: white;
+    border: solid rgba(0,0,0,0) 1px;
 }
 
-a:hover {
-    border: solid grey 1px;
-}
+a:hover { border: solid grey 1px; }
 
 a#stop:hover { background: rgba(45,0,0) }
 a#start:hover { background: rgba(0,45,20) }
 a#reset:hover { background: rgba(45,20,0) }
 
-a:active {
-    border: solid white 1px;
-}
+a:active { border: solid white 1px; }
 
 input {
     display: block;
