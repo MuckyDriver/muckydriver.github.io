@@ -28,9 +28,9 @@ header {
 header::-webkit-scrollbar { background: rgb(40,40,40); width: 8px; display: none; }
 header::-webkit-scrollbar-thumb { background: rgb(70,70,70); border-radius: 1rem;}
 
-header:hover {width: 260px; box-shadow: 0 0 1rem black; overflow-y: scroll;}
-header:focus {width: 260px; box-shadow: 0 0 1rem black; overflow-y: scroll;}
-header::selection {width: 260px; box-shadow: 0 0 1rem black; overflow-y: scroll;}
+header:hover {width: 260px; box-shadow: 0 0 1rem rgba(0,0,0,0.5); overflow-y: scroll;}
+header:focus {width: 260px; box-shadow: 0 0 1rem rgba(0,0,0,0.5); overflow-y: scroll;}
+header::selection {width: 260px; box-shadow: 0 0 1rem rgba(0,0,0,0.5); overflow-y: scroll;}
 header:hover div.bottom { opacity: 1; }
 
 .menu-logo {
