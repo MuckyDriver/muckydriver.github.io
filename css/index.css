@@ -22,9 +22,10 @@ header {
     position: fixed;
     z-index: 100;
     transition: all ease-in-out 0.4s;
+    scrollbar-width: none;
 }
 
-header::-webkit-scrollbar { background: rgb(40,40,40); width: 8px; display: none;}
+header::-webkit-scrollbar { background: rgb(40,40,40); width: 8px; display: none; }
 header::-webkit-scrollbar-thumb { background: rgb(70,70,70); border-radius: 1rem;}
 
 header:hover {width: 250px; box-shadow: 0 0 1rem black; overflow-y: scroll;}
