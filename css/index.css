@@ -452,9 +452,14 @@ footer div a img:hover { transform: scale(.9); }
 
 .grid-body-studio {
     display: grid;
-    grid-template-columns: 35px auto;
+    grid-template-columns: 42px auto;
 }
 
 .grid-body-studio img {
     width: 100%;
+    filter: invert(1)
+}
+
+.grid-body-studio div {
+    padding: 10px;
 }
