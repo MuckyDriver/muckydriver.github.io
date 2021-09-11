@@ -460,7 +460,7 @@ footer div a img:hover { transform: scale(.9); }
     filter: invert(1)
 }
 
-.grid-body-studio div {
+.grid-body-studio div:not(.div-in-grid) {
     padding-left: 20px;
 }
 
