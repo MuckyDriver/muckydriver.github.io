@@ -463,3 +463,7 @@ footer div a img:hover { transform: scale(.9); }
 .grid-body-studio div {
     padding-left: 20px;
 }
+
+.div-in-grid {
+    columns: 3;
+}
