@@ -454,3 +454,7 @@ footer div a img:hover { transform: scale(.9); }
     display: grid;
     grid-template-columns: 35px auto;
 }
+
+.grid-body-studio img {
+    width: 100%;
+}
