@@ -447,3 +447,11 @@ footer div a img:hover { transform: scale(.9); }
 #user-clock-local:hover {
     opacity: 0.2
 }
+
+/* Studio */
+
+.grid-body-studio {
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: '35px auto';
+}
