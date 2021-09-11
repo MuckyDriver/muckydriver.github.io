@@ -465,6 +465,6 @@ footer div a img:hover { transform: scale(.9); }
 }
 
 .div-in-grid {
-    column-count: 300px;
+    column-width: 300px;
     padding-left: none;
 }
