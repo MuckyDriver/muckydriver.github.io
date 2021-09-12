@@ -282,6 +282,8 @@ footer div a img:hover { transform: scale(.9); }
 .gamepad progress::-webkit-progress-value { background-color: #967f6b; border-radius: 1rem; }
 .gamepad progress::-webkit-progress-bar { border-radius: 1rem; background-color: #e4ccb6; }
 
+.gamepad progress::-moz-progress-bar { border-radius: 1rem; background-color: #e4ccb6; }
+.gamepad progress::-moz-range-progress { background-color: #967f6b; border-radius: 1rem; }
 
 /* Details */
 
