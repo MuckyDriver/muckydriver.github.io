@@ -278,12 +278,10 @@ footer div a img:hover { transform: scale(.9); }
 
 .gamepad div.block h1 a { font-size: small; color: grey; cursor: pointer;}
 
-.gamepad progress { width: 100%; -webkit-appearance: none; height: 10px; margin-bottom: 5px; margin-top: 5px;}
+.gamepad progress { width: 100%; -webkit-appearance: none; height: 10px; margin-bottom: 5px; margin-top: 5px; border: none;}
 .gamepad progress::-webkit-progress-value { background-color: #967f6b; border-radius: 1rem; }
 .gamepad progress::-webkit-progress-bar { border-radius: 1rem; background-color: #e4ccb6; }
-
 .gamepad progress::-moz-progress-bar { border-radius: 1rem; background-color: #e4ccb6; }
-.gamepad progress::-moz-range-progress { background-color: #967f6b; border-radius: 1rem; }
 
 /* Details */
 
