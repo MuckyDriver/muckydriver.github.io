@@ -20,7 +20,7 @@ const perc = document.getElementsByTagName('perc') // custom tag "<perc></perc>"
 for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = StatusData.Progress }
 
 const desc = document.getElementsByTagName('desc') // custom tag "<desc></desc>"
-for (var i = 0; i < desc.length; i++) { desc[i].innerHTML = StatusData.Progress }
+for (var i = 0; i < desc.length; i++) { desc[i].innerHTML = StatusData.Description }
 
 const progress = document.getElementById('json-progress');
 if (progress) { progress.value = StatusData.Progress; }
