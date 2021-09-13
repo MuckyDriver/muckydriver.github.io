@@ -20,4 +20,4 @@ const perc = document.getElementsByTagName('perc')
 for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = StatusData.Progress }
 
 const progress = document.getElementById('json-progress');
-progress.value = StatusData.Progress;
+if (progress) { progress.value = StatusData.Progress; }
