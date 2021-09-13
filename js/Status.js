@@ -9,3 +9,9 @@ const Header = document.getElementById('json-status-header')
 
 Header.style.color = '#4ba823';
 Header.innerHTML = StatusData.Status;
+
+const VersionElement = document.getElementsByClassName('GetVer')
+
+for (var i = 0; i < VersionElement.length; i++) {
+    VersionElement[i].innerHTML = StatusData.Version
+}
