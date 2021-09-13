@@ -1,5 +1,5 @@
 var Request = new XMLHttpRequest();
-Request.open("GET","<path_to_file>", false);
+Request.open("GET","./json/status.json", false);
 Request.send(null);
 
 var StatusData = JSON.parse(request.responseText);
