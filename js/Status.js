@@ -17,7 +17,7 @@ const ver = document.getElementsByTagName('ver')
 for (var i = 0; i < ver.length; i++) { ver[i].innerHTML = StatusData.Version }
 
 const perc = document.getElementsByTagName('perc')
-for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = toString(StatusData.Version) }
+for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = toString(StatusData.Progress) }
 
 const progress = document.getElementById('json-progress');
-progress.value = StatusData.Version;
+progress.value = StatusData.Progress;
