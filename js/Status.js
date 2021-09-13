@@ -4,4 +4,4 @@ Request.send(null);
 
 var StatusData = JSON.parse(Request.responseText);
 
-console.log(StatusData)
+console.log(StatusData["Version"][0])
