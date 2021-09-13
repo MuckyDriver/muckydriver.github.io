@@ -13,4 +13,4 @@ Header.innerHTML = StatusData.Status;
 
 var Progress = document.createElement('progress')
 
-Progress.appendChild(Header.innerHTML)
+Progress.appendChild(Header)
