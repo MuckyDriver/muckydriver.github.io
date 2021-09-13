@@ -7,6 +7,5 @@ var StatusData = JSON.parse(Request.responseText);
 // Applying the data to the current page.
 const Header = document.getElementById('json-status-header')
 
-setInterval(function(){ 
-    Header.innerHTML = StatusData.Status;
-}, 1000);
+Header.style.color = '#4ba823';
+Header.innerHTML = StatusData.Status;
