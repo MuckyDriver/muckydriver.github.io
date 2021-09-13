@@ -469,3 +469,9 @@ footer div a img:hover { transform: scale(.9); }
     column-width: 300px;
     padding-left: none;
 }
+
+/* Status */
+
+#status-data {
+    font-size: 75%;
+}
