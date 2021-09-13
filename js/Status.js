@@ -8,5 +8,5 @@ var StatusData = JSON.parse(Request.responseText);
 const Header = document.getElementById('json-status-header')
 
 setInterval(function(){ 
-    Header.innerHTML[0] = StatusData.Status;
+    Header.innerHTML = StatusData.Status;
 }, 1000);
