@@ -10,9 +10,7 @@ if (window.location.pathname = 'status.html') {
 
     Header.style.color = '#4ba823';
     Header.innerHTML = StatusData.Status;
-} else {
-    return
-}
+} 
 
 // This is for all pages which want to get the current game version, plus other data packages
 const ver = document.getElementsByTagName('ver')
