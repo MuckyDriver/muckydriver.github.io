@@ -10,8 +10,6 @@ const Header = document.getElementById('json-status-header')
 Header.style.color = '#4ba823';
 Header.innerHTML = StatusData.Status;
 
-const VersionElement = document.getElementsByTagName('ver')
-
-for (var i = 0; i < VersionElement.length; i++) {
-    VersionElement[i].innerHTML = StatusData.Version
-}
+// This is for all pages which want to get the current game version, plus other data packages
+const ver = document.getElementsByTagName('ver')
+for (var i = 0; i < ver.length; i++) { ver[i].innerHTML = StatusData.Version }
