@@ -9,4 +9,4 @@ console.log(StatusData.Version)
 
 const Header = document.getElementById('json-status-header')
 
-Header.innerText = StatusData.Status;
+Header.innerHTML = StatusData.Status;
