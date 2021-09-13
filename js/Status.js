@@ -12,6 +12,9 @@ if (Header) {
     Header.innerHTML = StatusData.Status;
 }
 
+const progress = document.getElementById('json-progress');
+if (progress) { progress.value = StatusData.Progress; }
+
 // This is for all pages which want to get the current game version , plus other data packages
 const ver = document.getElementsByTagName('ver') // custom tag "<ver></ver>"
 for (var i = 0; i < ver.length; i++) { ver[i].innerHTML = StatusData.Version }
@@ -21,6 +24,3 @@ for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = StatusData.Progress 
 
 const desc = document.getElementsByTagName('desc') // custom tag "<desc></desc>"
 for (var i = 0; i < desc.length; i++) { desc[i].innerHTML = StatusData.Description }
-
-const progress = document.getElementById('json-progress');
-if (progress) { progress.value = StatusData.Progress; }
