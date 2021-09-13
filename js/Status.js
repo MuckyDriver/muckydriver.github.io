@@ -24,3 +24,6 @@ for (var i = 0; i < perc.length; i++) { perc[i].innerHTML = StatusData.Progress 
 
 const desc = document.getElementsByTagName('desc') // custom tag "<desc></desc>"
 for (var i = 0; i < desc.length; i++) { desc[i].innerHTML = StatusData.Description }
+
+const _status = document.getElementsByTagName('status') // custom tag "<desc></desc>"
+for (var i = 0; i < _status.length; i++) { _status[i].innerHTML = StatusData.Status }
