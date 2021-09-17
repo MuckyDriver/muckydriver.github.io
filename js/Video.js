@@ -6,14 +6,15 @@ const body = document.body;
 
 var videos = {
     ["Development Video"]: 'files/Mucky Driver W I P 24.5 - Game Footage.mp4',
-    ["Euro Truck Gameplay"]: 'files/Euro Truck Simulator 2 2021-04-20 20-35-38.mp4'
+    ["Euro Truck Gameplay"]: 'files/Euro Truck Simulator 2 2021-04-20 20-35-38.mp4',
+    ['Truck Mesh Preview']: 'files/truck.mp4'
 }
 
 videoSelect.onchange = function() {
     if (videos[videoSelect.value]) {
         const video = document.getElementById("video")
         video.remove()
-        
+
         var url = videos[videoSelect.value];
         const videoClone = document.createElement('video')
         videoClone.id = 'video'; videoClone.controls = true
