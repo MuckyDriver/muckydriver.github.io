@@ -10,20 +10,16 @@ var videos = {
 }
 
 videoSelect.onchange = function() {
-    const video = document.getElementById("video")
-
     if (videos[videoSelect.value]) {
+        const video = document.getElementById("video")
         video.remove()
+        
         var url = videos[videoSelect.value];
-
         const videoClone = document.createElement('video')
-        videoClone.id = 'video'
-        videoClone.controls = true
+        videoClone.id = 'video'; videoClone.controls = true
 
         const newVid = document.createElement('source');
-        newVid.src = url;
-        newVid.type = 'video/mp4';
-        newVid.id = 'video-source';
+        newVid.src = url; newVid.type = 'video/mp4'; newVid.id = 'video-source';
 
         body.appendChild(videoClone)
         videoClone.appendChild(newVid)
