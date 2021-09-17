@@ -17,14 +17,17 @@
                 <a><img src="https://www.iconpacks.net/icons/1/free-video-icon-818-thumb.png"></a>
             </div>
             <div id="overlay-content">
-                <div id="title">Video Player</div><br>
+                <div id="title">Video Player</div>
+                <div style="overflow: auto;">
+                    <label>Video: </label>
+                    <select id="video-select">
+                        <option value="Development Video" selected>Development Video</option>
+                        <option value="Euro Truck Gameplay">Euro Truck Gameplay</option>
+                    </select>
+                </div>
                 <button id="close" title="Close Video"><img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png"></button>
             </div>
         </div>
         <video id="video" controls><source id="video-source" src="files/Mucky Driver W I P 24.5 - Game Footage.mp4" type="video/mp4"></video>
     </body>
-    <script>
-        const closer = document.getElementById('close')
-        closer.onclick = function() { window.location = 'https://muckydriver.net/' }
-    </script>
 </html>
