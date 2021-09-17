@@ -10,7 +10,6 @@ var videos = {
 }
 
 videoSelect.onchange = function() {
-    const videoSource = document.getElementById('video-source')
     const video = document.getElementById("video")
 
     if (videos[videoSelect.value]) {
