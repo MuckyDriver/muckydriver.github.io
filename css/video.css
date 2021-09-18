@@ -2,11 +2,13 @@
 body { 
     display: grid; 
     height: 100vh; 
+    grid-template-rows: 50px auto;
 }
 
 #video { 
     max-height: 100%; 
     width: 100%; 
+    margin: auto
 }
 
 /* Film Overlay */
