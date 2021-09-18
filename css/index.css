@@ -505,3 +505,7 @@ footer div a img:hover { transform: scale(.9); }
 #notice-bar a:hover {
     background-color: rgb(255, 72, 40);
 }
+
+@media only screen and (max-width: 600px) {
+    #notice-bar { display: none; }
+}
