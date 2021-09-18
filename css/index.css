@@ -475,3 +475,33 @@ footer div a img:hover { transform: scale(.9); }
 #status-data {
     font-size: 14px;
 }
+
+/* Notice Bar */
+
+#notice-bar {
+    padding: .5rem;
+    background: tomato;
+    color: white;
+    position: sticky; top: 0;
+    z-index: 5;
+}
+
+#notice-bar h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+#notice-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 3px; margin-left: 3px;
+    padding-right: 6px; padding-left: 6px;
+    border: white solid 1px;
+    right: 0;
+    border-radius: 0.5rem;
+}
+
+#notice-bar a:hover {
+    background-color: rgb(255, 72, 40);
+}
