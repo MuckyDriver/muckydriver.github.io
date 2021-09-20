@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mucky Driver</title>
+        <link rel="icon" href="./images/favicon.png">
+        <meta name="description" content="">
+        <meta name="keywords" content="Mucky Driver, ROBLOX, Roblox, mdr, muckydriver">
+        <meta name="author" content="DHC Gaming">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/dynamic.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div>
+            <div>
+                <button class="preset-btn" id="btn-enlarge">Enlarge Code Box</button>
+                <button class="preset-btn" id="btn-theme">Toggle Theme</button>
+            </div>
+            <div class="format-code theme-default">
+                <span class="var highlight">local</span> text = <span class="string">"Here is some text!"</span><br>
+                <span class="var">local</span> number = <span class="num">7.56</span><br><br>
+                <span class="var">local</span> func = <span class="func highlight">function</span>(p1, p2)<br>
+                <div class="indent"><span class="func">return </span>{p1, p2}</div>
+                <span class="var">end</span><br><br>
+                <span class="var">local</span> returnedArray = <span class="func">func</span>(<span class="string">"Param2"</span>, <span class="num">123</span>)<br>
+                <span class="highlight var">if</span> returnedArray <span class="var">then</span><br>
+                <div class="indent">
+                    <span class="func">print</span>(returnedArray);<br><br>
+                    <span class="var">if</span> returnedArray[<span class="num highlight">1</span>] == <span class="string">"Param2"</span><span class="var"> then</span>
+                    <div class="indent"><span class="func">return </span><span class="var">true</span></div>
+                    <span class="var">else</span><br>
+                    <div class="indent"><span class="func">return </span><span class="var">false</span></div>
+                    <span class="var">end</span>
+                </div>
+                <span class="var">end</span>
+            </div>
+        </div>
+    </body>
+    <script>
+        const btnEnlarge = document.getElementById('btn-enlarge');
+        const btnTheme = document.getElementById('btn-theme');
+        const formatCode = document.getElementsByClassName('format-code');
+
+        var IsEnlarged = false;
+        var IsOnDarkTheme = false;
+
+        btnEnlarge.onclick = function() {
+            for (var i = 0; i < formatCode.length; i++) {
+                if (IsEnlarged == false) { IsEnlarged = true
+                    formatCode[i].classList.add('expand')
+                } else { IsEnlarged = false
+                    formatCode[i].classList.remove('expand')
+                }
+            }
+        }
+
+        btnTheme.onclick = function() {
+            for (var i = 0; i < formatCode.length; i++) {
+                if (IsOnDarkTheme == false) { IsOnDarkTheme = true
+                    formatCode[i].classList.add('theme-dark'); formatCode[i].classList.remove('theme-default')
+                } else { IsOnDarkTheme = false
+                    formatCode[i].classList.add('theme-default'); formatCode[i].classList.remove('theme-dark');
+                }
+            }
+        }
+    </script>
+</html>
