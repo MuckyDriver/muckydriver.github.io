@@ -1,5 +1,5 @@
 body {background: rgb(25,25,25); margin: 0}
-html {background: black;}
+html {background: black; }
 /* Scrollbar */
 
 body::-webkit-scrollbar { width: 8px }
@@ -16,7 +16,7 @@ header {
     font-family: 'Trebuchet MS';
     overflow-y: hidden;
     overflow-x: hidden;
-    background: rgb(40,40,40);
+    background: rgb(40,40,40); /* 40,40,40 */
     width: 75px;
     height: 100%;
     position: fixed;
