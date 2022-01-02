@@ -60,3 +60,43 @@ div[content="play"] h2 a:hover { color: #0e90bb; }
 div[content="socials"] { max-width: none; background: black; margin-top: 0px; border-top: rgb(34, 43, 59) solid 1px; }
 div[content="socials"] div.links { max-width: 800px; margin: 0 auto; margin-top: 10px; padding: 0 25px}
 div[content="socials"] div.links a { display: inline-block; font-family: 'Rubik', sans-serif; line-height: 1.5; }
+
+/* Details ?update log page */
+
+details.version {
+    border: 1px rgba(255,255,255,0.25) solid;
+    margin-bottom: 5px;
+}
+
+details.version summary {
+    display: grid;
+    height: 40px;
+    grid-template-columns: auto 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s ease-in-out;
+}
+
+details.version summary:hover {
+    background-color: rgba(0,0,0,0.25);
+}
+
+details.version summary span { 
+    margin: auto 0; 
+    padding: 10px;
+    font-weight: 500;
+}
+
+details.version summary img {
+    width: 100%; padding: 15%;
+    transition: transform 0.25s ease-in-out;
+}
+
+details.version div {
+    padding: 10px;
+    line-height: 1.25;
+}
+
+details.version[open] summary img {
+    transform: rotate(180deg);
+}
