@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+/* Main Elements */
+
+body { 
+    margin: 0 auto;
+    background-color: rgb(26, 33, 46);
+}
+
+/* Header */
+header {
+    padding: 0 25px;
+    display: grid;
+    background: linear-gradient(rgb(0,0,0) -100%, transparent 100%);
+}
+
+header img {
+    margin: 50px auto 10px auto;
+    width: 100%; max-width: 75px;
+}
+
+header span {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Page > Content */
+
+div.page {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 25px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+div.page h2 { font-weight: 500;}
+div.page p { line-height: 1.5; }
+
+div.page a { 
+    text-decoration: none; 
+    font-size: normal;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+div.page a:hover { color: #0eb3ea;  opacity: 1; }
+
+div[content="about-mucky-driver-game"] { margin-top: 100px; }
+div[content="gallery"] div { columns: 300px; }
+div[content="gallery"] div img { max-width: 100%; margin: 10px 0; border: 1px solid #967f6b; }
+div[content="play"] { max-width: none; text-align: center; background: linear-gradient(transparent 0%, rgb(0,0,0) 150%); }
+div[content="play"] h2 a { color: #0eb3ea; opacity: 1; }
+div[content="play"] h2 a:hover { color: #0e90bb; }
+div[content="socials"] { max-width: none; background: black; margin-top: 0px; border-top: rgb(34, 43, 59) solid 1px; }
+div[content="socials"] div.links { max-width: 800px; margin: 0 auto; margin-top: 10px; padding: 0 25px}
+div[content="socials"] div.links a { display: inline-block; font-family: 'Rubik', sans-serif; line-height: 1.5; }
