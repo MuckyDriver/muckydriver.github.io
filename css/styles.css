@@ -49,7 +49,7 @@ div.page a {
     cursor: pointer;
 }
 
-div.page a:hover { color: #0eb3ea;  opacity: 1; }
+div.page a:hover { color: #0eb3ea;  opacity: 1; text-shadow: 0 0 1rem #0eb3ea }
 
 div[content="about-mucky-driver-game"] { margin-top: 100px; }
 div[content="gallery"] div { columns: 300px; }
