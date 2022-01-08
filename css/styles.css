@@ -57,7 +57,6 @@ div[content="gallery"] div { columns: 300px; }
 div[content="gallery"] div img { max-width: 100%; margin: 10px 0; border: 1px solid #967f6b; }
 div[content="play"] { max-width: none; text-align: center; background: linear-gradient(transparent 0%, rgb(0,0,0) 150%); }
 div[content="play"] h2 a { color: #0eb3ea; opacity: 1; }
-div[content="play"] h2 a:hover { color: #0e90bb; }
 div[content="socials"] { max-width: none; background: black; margin-top: 0px; border-top: rgb(34, 43, 59) solid 1px; }
 div[content="socials"] div.links { max-width: 800px; margin: 0 auto; margin-top: 10px; padding: 0 25px}
 div[content="socials"] div.links a { display: inline-block; font-family: 'Rubik', sans-serif; line-height: 1.5; }
