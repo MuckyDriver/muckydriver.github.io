@@ -133,6 +133,7 @@ details.dropdown div.content a {
     padding: 5px; 
     opacity: 1;
     color: white;
+    text-align: left;
 }
 
 details.dropdown div.content a:hover { color: #0eb3ea; text-shadow: none; }
