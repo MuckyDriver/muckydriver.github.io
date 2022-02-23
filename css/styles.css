@@ -167,6 +167,8 @@ div.content-list .dropdown a:hover + div, div.content-list .dropdown div:hover {
 /* cl-mobile */
 
 div.cl-mobile-btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
     user-select: none;
     background-color: rgb(26, 33, 46);
     box-shadow: 0 0px 0.5rem rgba(0,0,0,0.6);
@@ -185,6 +187,7 @@ div.cl-mobile-btn:hover {
 }
 
 div.cl-mobile {
+    font-family: 'Rubik', sans-serif;
     position: fixed;
     overflow-y: auto;
     display: none;
