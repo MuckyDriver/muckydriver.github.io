@@ -103,7 +103,7 @@ details.version[open] summary img { transform: rotate(180deg); }
 /* Content List */
 
 div.content-list {
-    position: sticky; top: 5px; z-index: 1;
+    position: sticky; top: -50px; z-index: 1;
     background-color: rgb(26, 33, 46);
     box-shadow: 0 5px 0.32rem rgba(0,0,0,0.35);
     max-width: 760px;
@@ -111,7 +111,11 @@ div.content-list {
     display: flex; justify-content: end;
     justify-self: center;
     height: 45px;
-    transition: height 0.5s ease-in-out, opacity 0.25s 0.25s ease-in-out;
+    transition: height 0.5s ease-in-out, opacity 0.25s 0.25s ease-in-out, top 0.2s ease-in-out;
+}
+
+div.content-list.scrollup {
+    top: 5px;
 }
 
 div.content-list a {
@@ -155,6 +159,6 @@ div.content-list .dropdown div {
 
 div.content-list .dropdown a:hover + div, div.content-list .dropdown div:hover {
     visibility: visible;
-    transform: translateY(5px);
+    transform: translateY(0px);
     opacity: 1;
 }
