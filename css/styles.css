@@ -120,6 +120,7 @@ div.content-list.scrollup {
 
 div.content-list a {
     text-decoration: none;
+    cursor: pointer;
     padding: 10px 20px;
     color: white;
     position: relative;
@@ -161,4 +162,91 @@ div.content-list .dropdown a:hover + div, div.content-list .dropdown div:hover {
     visibility: visible;
     transform: translateY(0px);
     opacity: 1;
+}
+
+/* cl-mobile */
+
+div.cl-mobile-btn {
+    user-select: none;
+    background-color: rgb(26, 33, 46);
+    box-shadow: 0 0px 0.5rem rgba(0,0,0,0.6);
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+
+div.cl-mobile-btn:hover {
+    box-shadow: 0 0px 0.5rem rgba(0,0,0,0.8);
+    color: #0eb3ea
+}
+
+div.cl-mobile {
+    position: fixed;
+    overflow-y: auto;
+    display: none;
+    transform: translateX(-100%);
+
+    top: 0;
+    z-index: 15;
+    background: black;
+    max-width: 300px; width: 100%;
+    height: 100%;
+
+    color: white;
+    border-right: 1px solid rgba(255,255,255,0.25);
+
+    transition: transform 0.2s ease-in-out;
+}
+
+div.cl-mobile.open {
+    transform: translateX(0%);
+}
+
+div.cl-mobile h3 {
+    padding: 10px 20px;
+    border-bottom: rgba(255,255,255,0.25) 1px solid;
+}
+
+div.cl-mobile h3 span {
+    background: rgb(100,100,100); padding: 1px 5px;
+    vertical-align: middle;
+    font-size: 80%;
+    margin: 0px 5px;
+}
+
+div.cl-mobile a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none; color: white;
+}
+
+div.cl-mobile a:hover {
+    color: #0eb3ea; text-shadow: 0 0 1rem #0eb3ea;
+}
+div.cl-mobile a[locked]:hover { color: white; }
+div.cl-mobile a[locked] {
+    opacity: 0.5
+}
+
+div.cl-mobile a span {
+    background: rgb(100,100,100); padding: 1px 5px;
+    vertical-align: middle;
+    font-size: 80%;
+    margin: 0px 5px;
+}
+
+@media (max-width: 460px) {
+    div.cl-mobile-btn { display: block; }
+    div.cl-mobile { display: block; }
+}
+
+#cl_close {
+    position: absolute;
+    right: 5px; top: 0px;
+    width: 35px;
+    cursor: pointer;
 }
