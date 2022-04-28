@@ -133,7 +133,7 @@ div.content-list a:hover { color: #0eb3ea; }
 div.content-list a[locked] { opacity: 0.5; }
 
 @media (max-width: 920px) { div.content-list { max-width: calc(100% - 40px); } }
-@media (max-width: 460px) { 
+@media (max-width: 500px) { 
     div.content-list {
         display: none;
     } 
@@ -242,7 +242,7 @@ div.cl-mobile a span {
     margin: 0px 5px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
     div.cl-mobile-btn { display: block; }
     div.cl-mobile { display: block; }
 }
