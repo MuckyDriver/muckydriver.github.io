@@ -253,3 +253,14 @@ div.cl-mobile a span {
     width: 35px;
     cursor: pointer;
 }
+
+/* Outdated */
+div.outdated {
+    background: white;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
