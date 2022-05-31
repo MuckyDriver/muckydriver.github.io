@@ -22,7 +22,7 @@ header {
 }
 
 header div#logo { grid-area: 'left'; padding-right: 15px; }
-header div#logo img { padding: 5px; width: 75px; }
+header div#logo img { padding: 5px; width: 75px; filter: drop-shadow(0 0 0.5rem rgba(0,0,0, 0.25)); }
 
 /* Header > Menu */
 header div.menu { margin: auto 0px auto auto; font-family: 'Rubik'; padding-right: 5px; }
