@@ -1,31 +1,14 @@
-// Content List Scroll Up Feature
-const contentList = document.getElementById('contentList')
+// Anchor Menu System
+const Menu = document.getElementById('menu')
+const MenuList = Menu.querySelectorAll("a")
 
-let lastScroll = 0
-window.onscroll = function() {
-    let thisScroll = window.scrollY
-    
-    if (thisScroll < lastScroll) {
-        contentList.classList.add('scrollup')
-    } else {
-        contentList.classList.remove('scrollup')
+for (let i = 0; i < MenuList.length; i++) {
+    const button = MenuList[i]
+
+    button.onclick = function() {
+        const anchor = document.getElementById(button.innerText.toLowerCase())
+        if (anchor) {
+            window.scrollTo(0, anchor.offsetTop)
+        }
     }
-
-    lastScroll = thisScroll
-}
-
-// Content List Mobile Version
-const cl_mobile = document.getElementById('cl')
-const cl_mobile_btn = document.getElementById('cl_btn')
-const cl_close = document.getElementById('cl_close')
-
-let cl_open = false 
-cl_mobile_btn.onclick = function() {
-    if (cl_open == false) { cl_mobile.classList.add('open') }
-    cl_open = true
-}
-
-cl_close.onclick = function() {
-    if (cl_open == true) { cl_mobile.classList.remove('open') }
-    cl_open = false
 }

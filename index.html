@@ -13,54 +13,91 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="outdated">
-            <b>muckydriver.net:</b> This website is currently out of date, and will be updated!<br>
-        </div>
-        <header><img src="img/icon.png"><span>MUCKY DRIVER</span></header>
-        <div class="cl-mobile" id="cl">
-            <img id="cl_close" src="img/cl_close.png">
-            <h3>Extra Pages<span>mobile</span></h3>
-            <a href="update-logs">📰 Update Logs</a>
-            <a href="#features" locked>⭐ Features<span>coming soon</span></a>
-            <a href="" locked>🖼️ Gallery<span>coming soon</span></a>
-            <a href="" locked>👤 Credits<span>coming soon</span></a>
-        </div>
-        <div class="cl-mobile-btn" id="cl_btn">☰ Extra Pages</div>
-        <div class="content-list" id="contentList">
-            <a href="update-logs">Update Logs</a>
-            <a href="#features" locked>Features</a>
-            <a href="#gallery" locked>Gallery</a>
-            <a href="#credits" locked>Credits</a>
-        </div>
-        <div class="page" content="pre">
-            <h2>About Mucky Driver</h2>
-            <p>
-                Mucky Driver is a game where you upgrade through various cars and vehicles by collecting Points, Gems and CustomPoints all over the map. Furthermore, you can complete in-game
-                challenges which give you something else to do while playing the game which will reward you for completing it. Missions can be completed by going through various different stages where you have to
-                find the fastest and the best possible way past the obstacles to finish the mission succesfully. <a href="learn-more">Learn More</a>
-            </p>
-        </div>
-        <div class="page">
-            <h2>The Story of Raven and Muck County</h2>
-            <p>
-                You have been invited to the <b style="font-weight: 500;">Mucky Driver Group</b> where they tell you the story about how Raven and Muck County was created! Everyone who had lived before had to
-                experience the most devastating natural disaster ever recorded in that area. The Tsunami took out most of the building's structure and damaged the shore near the town. 
-                After the disaster the government which was in charge at the time (Raven County Government) had to stop maintaining half of their land where it became abandoned for many years after the disaster. Mucky Driver 
-                Group was founded by a person who believed that the land left over should be re-claimed however for a different use.
-                <a href="story">Full Story</a>
-            </p>
-        </div>
-        <div class="page" content="play">
-            <h2><a href="https://play.muckydriver.net" target="_blank">PLAY NOW (v.0.1 Pre-Alpha)</a></h2>
-        </div>
-        <div class="page" content="socials">
-            <div class="links">
-                <a href="https://github.com/MuckyDriver">Github</a><br>
-                <a href="https://discord.gg/w2BySSGg2r">Discord</a><br>
-                <a href="https://devforum.roblox.com/u/dhcgamer1055/summary">Devforum</a><br>
-                <a href="https://dhcweblogistics.net">Claasgreeneye</a> 
-                <p>&copy; 2022</p>
+        <header>
+            <div id="logo"><img src="img/icon.png"></div>
+            <div class="menu" id="menu"><a class="main">ABOUT</a><a class="main">FEATURES</a><a class="main">GALLERY</a><a class="main">CREDITS</a>
+                <div class="dropdown">
+                    <a class="dropdown-btn"><span>OTHER</span><img id="mobile_menu" src="img/menu.svg"><img id="dropdown" src="img/dropdown.png"></a>
+                    <div class="buttons">
+                        <div class="mobile"><a>ABOUT</a><a>FEATURES</a><a>GALLERY</a><a>CREDITS</a></div>
+                        <a href="update-logs.html">UPDATE LOGS</a><a href="story.html">STORY</a></div>
+                </div>
             </div>
+        </header>
+        <div class="welcome">
+            <div>
+                <b>Welcome to the offical <span id="highlight">Mucky Driver</span> website!</b><br>
+                <span id="small">Open-world offroad vehicle game with missions, tasks and more.</span>
+            </div>
+        </div>
+        <div class="section top-design" id="about">
+            <h3 id="highlight">About Mucky Driver Game</h3>
+            <p>Mucky Driver is a game where you upgrade through various cars and vehicles by collecting Points, Gems and CustomPoints all over the map. 
+            Furthermore, you can complete in-game challenges which give you something else to do while playing the game which will reward you for completing it. 
+            Missions can be completed by going through various different stages where you have to find the fastest and the best possible way past the obstacles to 
+            finish the mission succesfully.</p>
+            <a href="https://play.muckydriver.net" target="_blank" id="link">▶️ Mucky Driver Link</a>
+        </div>
+        <div class="section" id="features">
+            <h3 id="highlight">Features</h3>
+            <div class="features">
+                <div class="box"> <img src="img/Features/Cars.PNG"><h4 class="title">Cars</h4>
+                    <p>There are 15+ vehicles which are currently in the game. To unlock more cars in the game you must go around the map collecting points and gems to then 
+                        unlock the desired vehicles. In the VIP gamepass you get access to the almighty Monster truck which can nearly everywhere accross the map without any issues.
+                        Every vehicle has their own specifications and systems which either mean it will use more fuel as you use it or it will additional features.
+                    </p><p><b>Controls: </b>You can use WASD keys or the Arrow keys.</p>
+                </div>
+                <div class="box"> <img src="img/Features/FuelSystem.PNG"><h4 class="title">Fuel System</h4>
+                    <p>The fuel system is a feature where as you drive around the map the car will deduct the amount of fuel amount you have left across all cars. 
+                    Different vehicles may have a higher consumption rate; For example the <b>Deslan Van</b> only uses 6 units per minute however the <b>Tanker</b> uses 
+                    59 units per minute [UPM]. The profile is limited to 500 units of fuel.</p>
+                    <p>Around the map there a 2 Fuel Stations which allow you to refuel your vehicle if you find yourself running low. The fuel station requires to have less than
+                    20% fuel in your profile and 50 CustomPoints. If you have the right requirements it will restore your fuel amount to 500 Units / 100%. If you find
+                    yourself empty and you are not near any of the Fuel stations then it is advised that you spawn any vehicle over the top of the Fuel Station prompt
+                    area and get in the car to get more fuel.</p>
+                </div>
+                <div class="box"> <img src="img/Features/ferry_task.png"><h4 class="title">Tasks</h4>
+                    <p>Tasks is a feature which is in the main game to give you something to do and to get you around the map whilst also collecting some rewards along the way.
+                    A task example would be finding your home or collecting a certain amount of points around the map. The rewards would either be points, gems or custom points</p>
+                </div>
+                <div class="box"> <img src="img/Features/Weather.gif"><h4 class="title">Weather</h4>
+                    <p>The weather system alters the clouds to increase and decrease in scale over time, to keep it realistic it only changes slowly so you do not notice a change 
+                        easily. When the clouds cover most of the sky at this point it will start to rain around the map. The weather system is completely random, which means it is 
+                        different for every server.
+                    </p>
+                </div>
+                <div class="box"> <img src=""><h4 class="title">Missions<span id="red">Coming Soon</span></h4>
+                    <p>
+                        Missions will soon be a major feature to the game Mucky Driver, you will be able to take part in different challenges where you can collect points, gems and 
+                        custom points as rewards. Missions includes cool unique mechanics depending on the type of mission you are undertaking. The missions will start from Easy difficulty 
+                        then following up to a more difficult challenge as you do more missions; Missions will be separated by Starter, Easy, Medium and Hard difficulties and you must complete all the missions 
+                        in each section to then be able to start any of the harder ones. More Info soon when it gets released 😉
+                    </p>
+                    <p>To start a mission you must go to the Missions game place by clicking on <b>Missions</b> button the main menu and click <b>Continue</b>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section gallery" id="gallery">
+            <h3 id="highlight" class="background">Gallery - In-game screenshots of the game.</h3>
+            <div class="galleries">
+                <div class="image"><img src="img/Gallery/thumbnail_1.png"></div>
+                <div class="image"><img src="img/Gallery/thumbnail_2.png"></div>
+                <div class="image"><img src="img/Gallery/thumbnail_3.png"></div>
+                <div class="image"><img src="img/Gallery/thumbnail_4.png"></div>
+                <div class="image"><img src="img/Gallery/thumbnail_5.png"></div>
+                <div class="image"><img src="img/Gallery/thumbnail_6.png"></div>
+            </div>
+        </div>
+        <div class="section" id="credits">
+            <h3 id="highlight">Credits</h3>
+            <div class="credits">
+                <div class="credit"><span id="blueify">Map, Code and UI: </span>Claasgreeneye</div>
+                <div class="credit"><span id="blueify">Music: </span>APM Music, Roblox</div>
+                <div class="credit"><span id="blueify">Icons: </span>Icons8</div>
+            </div>
+        </div>
+        <div class="section light centered">
+            Website created by Claasgreeneye / DHCGamer1055. © Copyright 2022
         </div>
     </body>
     <script src="./js/index.js"></script>
