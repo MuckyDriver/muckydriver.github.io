@@ -201,13 +201,13 @@ details.update-log {
     padding: 10px; 
     background-color: rgb(20,20,20);
     margin-bottom: 10px;
-    user-select: none;
 }
 
 details.update-log div {
     padding-top: 10px;
+    line-height: 1.5rem;
 }
-details.update-log summary { cursor: pointer; }
+details.update-log summary { cursor: pointer; user-select: none; }
 details.update-log[open] summary {
     color: lightskyblue;
 }
