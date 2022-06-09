@@ -233,3 +233,14 @@ div.light { background-color: rgb(50,50,50) }
     text-decoration: none;
 }
 #link:hover { color: rgb(96, 154, 190); }
+
+body::after {
+    content: 'Website created by Claasgreeneye / DHCGamer1055. © Copyright 2022';
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(50,50,50);
+    color: white;
+    display: block;
+    user-select: auto;
+    font-family: 'Rubik';
+}
