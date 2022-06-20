@@ -1,0 +1,13 @@
+Update Log List:
+
+Backend Optimisations
+New Trees
+Tasks (Revamped Challenges)
+Realistic Puddles
+Custom Car System (A-Chassis is gone!)
+Dynamic Clouds (w/Weather)
+Updated Car Requirements
+Revamped Missions (To be released on Version 0.5 Alpha)
+Bug Fixes
+
+Update Date: 09/06/2022

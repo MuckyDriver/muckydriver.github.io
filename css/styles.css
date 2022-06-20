@@ -212,6 +212,25 @@ details.update-log[open] summary {
     color: lightskyblue;
 }
 
+/* Download Buttons */
+a.download {
+    display: inline-block;
+    background-color: rgb(40,50,60);
+    padding: 5px 10px;
+    margin-top: 15px; margin-right: 5px;
+    color: lightskyblue;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    border-radius: 6px;
+}
+
+a.download:hover {
+    box-shadow: 0 0 1rem rgba(100,100,100, 0.5);
+    transform: translateY(-3px);
+}
+
 /* Other */
 .top-design { border-top: 2px solid #a58d69; }
 .background { background-color: black; display: inline-block; padding: 10px; }
