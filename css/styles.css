@@ -263,3 +263,18 @@ body::after {
     user-select: auto;
     font-family: 'Rubik';
 }
+
+/* Roblox Corp */
+div.roblox-corp img {
+    width: 100px;
+}
+
+div.roblox-corp {
+    background-color: rgb(0,0,0);
+    padding: 0px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px; left: 10px;
+    z-index: 100;
+}
