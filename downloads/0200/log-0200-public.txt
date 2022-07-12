@@ -1,0 +1,20 @@
+Update Log List:
+
+Terrain Colors Fixed
+	> Grass Color used to be wrong due to a roblox update
+	> Other materials were altered to match the roblox update change
+
+Terrain Optimisations
+	> Removed useless voxels which are not seen by the player
+	> 500,000 terrain voxels were removed
+
+Small Town Expansion
+	> New addition to the town where 1 new row of houses were added
+	> Parking space behind the building
+	> Added some more trees and hedges to fit the area.
+
+Bug Fixes
+	> Fixed Location Finder where it did not update after a player died.
+	> More fixes were done, however forgotten which ones.
+
+Update Date: 12/07/2022
