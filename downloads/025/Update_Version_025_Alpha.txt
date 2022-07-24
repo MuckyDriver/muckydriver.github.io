@@ -1,0 +1,22 @@
+Mucky Driver Update Log | Version 0.25 Alpha
+
+List:
+	Removed Depth of Field (Lighting issues)
+		Problem: Able to see through trees and some leaves not showing up.
+	New Car UI Design.
+	Added a location list, which can be opened by clicking location finder text.
+	Backend Optimisations
+	Map now contains Ferns, Flowers and Bushes
+		Grass Terrain now has randomly placed plants around the whole map
+	Quick Refuel (Refuel your vehicles to 100% for 100 Gems)
+		Requirements: 100 Gems & 20% or less fuel amount.
+		Quick Refuel is useful for people who run out of fuel before going to a fuel station
+	Bug Fixes:
+		Fixed car flipping issue (Hopefully :D)
+
+
+
+
+
+		
+	
