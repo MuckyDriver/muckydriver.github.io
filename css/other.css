@@ -1,0 +1,28 @@
+body.error {
+    margin: 0px; 
+    background: url('../img/error_404_background.png');
+}
+
+div.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Rubik';
+    color: rgb(200,200,200);
+}
+
+div.center div {
+    line-height: 1.8;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.75);
+    text-align: center;
+    background-color: rgb(50,50,50);
+    border: 2px solid rgba(255,50,50, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+span.thin {
+    font-weight: lighter;
+}
