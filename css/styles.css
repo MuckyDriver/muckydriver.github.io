@@ -98,6 +98,7 @@ div.section p { line-height: 1.5rem; }
 
 div.section.gallery {
     background-color: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(24px);
 }
 
 /* Welcome */
@@ -124,7 +125,6 @@ div.welcome div span#small { font-size: medium; }
 div.galleries {
     display: grid;
     grid-template-columns: repeat(auto-fill, 33.3%);
-    backdrop-filter: blur(24px);
 }
 
 div.galleries div.image {
