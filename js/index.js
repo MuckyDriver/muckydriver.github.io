@@ -51,6 +51,6 @@ function openSlideshow() {
     window.location.hash = 'slideshow:all'
 }
 
-if (window.location.hash == 'slideshow:all') {
-    slideshowcontainer.style.display = 'block'
+if (window.location == 'https://muckydriver.net/#slideshow:all') {
+  slideshowcontainer.style.display = 'block'
 }
