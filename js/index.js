@@ -53,7 +53,15 @@ function openSlideshow() {
 
 /* Commands */
 function scrollAdapt(anchor) {
-  if (anchor) {window.scrollTo(0, anchor.offsetTop)}
+  if (document.readyState == 'complete' && anchor) {
+    window.scrollTo(0, anchor.offsetTop)
+  } else {
+    document.onreadystatechange = function() {
+      if (document.readyState == 'complete' && anchor) {
+        window.scrollTo(0, anchor.offsetTop)
+      }
+    }
+  }
 }
 
 if (window.location.search == '?slideshow') {
