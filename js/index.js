@@ -13,7 +13,7 @@ for (let i = 0; i < MenuList.length; i++) {
     }
 }
 
-// Slideshow 
+/* Slideshow */
 const slideshowcontainer = document.getElementById('slideshow-container')
 
 let slideIndex = 1;
@@ -51,6 +51,17 @@ function openSlideshow() {
   slideshowcontainer.style.display = 'block'
 }
 
-if (window.location == 'https://muckydriver.net/?slideshow') {
+/* Commands */
+function scrollAdapt(anchor) {
+  if (anchor) {window.scrollTo(0, anchor.offsetTop)}
+}
+
+if (window.location.search == '?slideshow') {
   openSlideshow()
+} else if (window.location.search == '?gallery') {
+  scrollAdapt(document.getElementById('gallery'))
+} else if (window.location.search == '?features') {
+  scrollAdapt(document.getElementById('features'))
+} else if (window.location.search == '?credits') {
+  scrollAdapt(document.getElementById('credits'))
 }
