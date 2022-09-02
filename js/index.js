@@ -32,23 +32,25 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+  
   slides[slideIndex-1].style.display = "block";
 } 
 
 function closeSlideshow() {
-    slideshowcontainer.style.display = 'none'
+  slideshowcontainer.style.display = 'none'
 }
 
 function openSlideshow() {
-    slideshowcontainer.style.display = 'block'
+  slideshowcontainer.style.display = 'block'
 }
 
 if (window.location == 'https://muckydriver.net/?slideshow') {
-  slideshowcontainer.style.display = 'block'
+  openSlideshow()
 }
