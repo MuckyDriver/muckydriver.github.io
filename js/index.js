@@ -43,14 +43,12 @@ function showSlides(n) {
 
 function closeSlideshow() {
     slideshowcontainer.style.display = 'none'
-    window.location.hash = "slideshow:hidden"
 }
 
 function openSlideshow() {
     slideshowcontainer.style.display = 'block'
-    window.location.hash = 'slideshow:all'
 }
 
-if (window.location == 'https://muckydriver.net/#slideshow:all') {
+if (window.location == 'https://muckydriver.net/?slideshow') {
   slideshowcontainer.style.display = 'block'
 }
