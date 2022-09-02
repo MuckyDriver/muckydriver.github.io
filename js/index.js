@@ -50,3 +50,7 @@ function openSlideshow() {
     slideshowcontainer.style.display = 'block'
     window.location.hash = 'slideshow:all'
 }
+
+if (window.location.hash == 'slideshow:all') {
+    slideshowcontainer.style.display = 'block'
+}
